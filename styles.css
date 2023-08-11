@@ -1,1 +1,6 @@
-p { color: red; }
+p { color: blue; }
+
+.education {
+    padding: 20px;
+    background-color: #f2f2f2;
+}
