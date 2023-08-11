@@ -23,3 +23,12 @@ h1 {
 p {
     color: #555;
 }
+
+.container p {
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container p:hover {
+    background-color: #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
