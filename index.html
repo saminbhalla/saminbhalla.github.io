@@ -10,14 +10,7 @@
 <body>
 
     <button id="theme-toggle">Toggle Theme</button>
-    <script>
-        const themeToggle = document.getElementById('theme-toggle');
-        const body = document.body;
 
-        themeToggle.addEventListener('click', () => {
-            body.classList.toggle('dark-theme');
-        });
-    </script>
 
     <div class="container">
         <h1>Hello, World!</h1>
@@ -41,6 +34,15 @@
         <h2>Work Experience</h2>
         <p>Trading Analyst Intern at Group One Trading - 2023</p>
     </div>
+
+    <script>
+        const themeToggle = document.getElementById('theme-toggle');
+        const body = document.body;
+
+        themeToggle.addEventListener('click', () => {
+            body.classList.toggle('dark-theme');
+        });
+    </script>
 
 </body>
 </html>
