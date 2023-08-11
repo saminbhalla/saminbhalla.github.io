@@ -5,12 +5,3 @@ p { color: blue; }
     background-color: #f2f2f2;
 }
 
-
-body.dark-theme {
-    background-color: #1a1a1a;
-    color: white;
-}
-
-.container.dark-theme {
-    background-color: #333;
-}
